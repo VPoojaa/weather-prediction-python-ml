@@ -2,19 +2,26 @@
 
 ## 📌 Project Overview
 
-This project focuses on predicting weather conditions using Python and Machine Learning. The project uses a real-world weather dataset and follows the complete machine learning workflow from data preprocessing to prediction and visualization.
+This project focuses on predicting weather conditions using Python and Machine Learning. A real-world weather dataset is used to understand the complete Machine Learning workflow, including data preprocessing, feature selection, model training, prediction, and visualization.
 
-## 🎯 Objectives
+This project was developed as a learning and portfolio project to gain practical experience in Python, Data Analysis, and Machine Learning.
 
-- Load and understand real-world weather data
-- Clean and preprocess the dataset
-- Perform exploratory data analysis (EDA)
-- Select relevant features for prediction
-- Encode categorical features
-- Split the dataset into training and testing data
+## 🎯 Purpose
+
+The main purpose of this project is to understand how Machine Learning can be applied to real-world weather data.
+
+Through this project, I learned how to:
+
+- Load and understand a real-world dataset
+- Clean and preprocess data
+- Perform Exploratory Data Analysis (EDA)
+- Select relevant features
+- Encode categorical data
+- Split data into training and testing sets
 - Train a Machine Learning model
-- Evaluate the model performance
-- Visualize the prediction results
+- Generate predictions
+- Evaluate model performance
+- Visualize results
 
 ## 🛠️ Technologies & Libraries
 
@@ -30,7 +37,8 @@ This project focuses on predicting weather conditions using Python and Machine L
 
 The project uses the **Weather Prediction Dataset** available through Zenodo.
 
-Dataset: https://zenodo.org/records/4770937/files/weather_prediction_dataset.csv
+**Dataset:**  
+https://zenodo.org/records/4770937/files/weather_prediction_dataset.csv
 
 ## 🔄 Project Workflow
 
@@ -49,7 +57,7 @@ Categorical Encoding
       ↓
 Train-Test Split
       ↓
-Model Training
+Machine Learning Model
       ↓
 Prediction
       ↓
@@ -58,32 +66,60 @@ Model Evaluation
 Visualization
 ```
 
-## 📊 Exploratory Data Analysis
+## 🔍 Data Analysis
 
-The dataset is explored using Pandas and visualized using Matplotlib and Plotly to understand:
+The dataset is explored using Pandas, Matplotlib, and Plotly to understand the weather data and identify useful patterns.
 
-- Data distribution
+The analysis includes:
+
+- Dataset structure
+- Data types
 - Missing values
+- Statistical summary
 - Feature relationships
+- Data distributions
 - Weather-related patterns
-- Important features for prediction
+
+## 🧹 Data Preprocessing
+
+The dataset is prepared for Machine Learning through preprocessing steps such as:
+
+- Handling missing values
+- Selecting relevant columns
+- Preparing features and target variables
+- Encoding categorical variables
+- Preparing data for model training
 
 ## 🤖 Machine Learning
 
-The dataset is prepared for Machine Learning by:
+The project uses **Scikit-Learn** to build the Machine Learning model.
 
-- Selecting relevant features
-- Encoding categorical variables
-- Splitting data into training and testing sets
-- Training a Scikit-Learn Machine Learning model
-- Generating predictions
-- Evaluating model performance
+The workflow includes:
 
-## 📈 Results
+1. Feature selection
+2. Data preprocessing
+3. Categorical encoding
+4. Train-test split
+5. Model training
+6. Prediction
+7. Model evaluation
 
-The model performance is evaluated using appropriate evaluation metrics based on the prediction task.
+## 📊 Model Evaluation
 
-The final results and visualizations are available in the Jupyter Notebook.
+The trained model is evaluated using appropriate performance metrics based on the prediction task.
+
+The final model results and visualizations are available in the Jupyter Notebook.
+
+## 📈 Visualization
+
+Plotly and Matplotlib are used to visualize the dataset and prediction-related results.
+
+These visualizations help in understanding:
+
+- Weather patterns
+- Feature relationships
+- Data distributions
+- Prediction results
 
 ## 📁 Project Structure
 
@@ -97,31 +133,53 @@ weather-prediction-python-ml/
 
 ## ▶️ How to Run
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/VPoojaa/weather-prediction-python-ml.git
 ```
 
-### 2. Install the required libraries
+### 2. Install Required Libraries
 
 ```bash
 pip install pandas numpy matplotlib scikit-learn plotly jupyter
 ```
 
-### 3. Open Jupyter Notebook
+### 3. Start Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-### 4. Open
+### 4. Open the Notebook
+
+Open:
 
 ```text
 weather_prediction.ipynb
 ```
 
-Run the notebook cells sequentially to reproduce the analysis and predictions.
+Run the notebook cells sequentially to reproduce the analysis and Machine Learning workflow.
+
+## 🔗 Resources
+
+- **Dataset:** https://zenodo.org/records/4770937/files/weather_prediction_dataset.csv
+- **Reference Repository:** https://github.com/data-geek-lab/weather-prediction-python-ml
+
+## 📚 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Python programming
+- Data preprocessing
+- Exploratory Data Analysis
+- Feature selection
+- Categorical encoding
+- Machine Learning
+- Model evaluation
+- Data visualization
+- Jupyter Notebook
+- GitHub project management
 
 ## 👩‍💻 Author
 
@@ -129,6 +187,8 @@ Run the notebook cells sequentially to reproduce the analysis and predictions.
 
 B.Sc. Computer Science
 
-GitHub: https://github.com/VPoojaa
+**GitHub:**  
+https://github.com/VPoojaa
 
-LinkedIn: https://linkedin.com/in/pooja-velu-6605762ba
+**LinkedIn:**  
+https://linkedin.com/in/pooja-velu-6605762ba
