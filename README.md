@@ -164,7 +164,6 @@ Run the notebook cells sequentially to reproduce the analysis and Machine Learni
 ## 🔗 Resources
 
 - **Dataset:** https://zenodo.org/records/4770937/files/weather_prediction_dataset.csv
-- **Reference Repository:** https://github.com/data-geek-lab/weather-prediction-python-ml
 
 ## 📚 Learning Outcomes
 
